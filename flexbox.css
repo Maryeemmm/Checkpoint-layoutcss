@@ -1,0 +1,135 @@
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(0, 179, 155);
+}
+
+p {
+    margin: 0;
+    color: #747474;
+}
+
+.box {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.offices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    padding: 0; 
+}
+
+.office-inner {
+    height: 342px;
+    width: 311px;
+    max-width: 311px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    border-radius: 6px;
+    color: #747474;
+    overflow: hidden; 
+    background-color:white;
+    background-position: 0% 0%;
+    
+}
+
+.office {
+    display: block;
+    clear: left;
+    height: 362px;
+    width: 331.625px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.2s ease;
+}
+
+.office:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.office_desc span {
+    width: auto;
+    height: 20px;
+    padding: 10px 20px;
+}
+
+.office__image img {
+    display: block;
+    height: 270px;
+    width: 309px;
+    max-width: 100%;
+    overflow: clip;
+    cursor:pointer ;
+}
+
+.office__btn {
+    font-family: Arial, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn-btn-primary {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3d83df;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #005bb5;
+}
+
+.h2 {
+    color: #333333;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+.joinus-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.btn-joinus {
+    background-color: #3d83df;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-joinus:hover {
+    background-color: #005bb5;
+}
